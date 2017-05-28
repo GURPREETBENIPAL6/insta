@@ -2,90 +2,86 @@
 <html lang="en" ng-app>
   <head>
     <title>Chat Example</title>
+    <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
     <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <style>
-      body {
-        padding-top: 60px;
-      }
+     
     </style>
   </head>
   <body>
-
-
-        <div>
-        		<div>
-        			<div class="header"><img src="cameraicon.jpg"  style="width:80px;height:90px;">&nbsp;&nbsp;</div>
-        				<div class="header">
-        					<div class="vertical_line"></div>
-        				</div>
-        				<style>
-        					.vertical_line{height:90px; width:1px;background:#000;}
-        				</style>
-        				<div class="header">&nbsp;&nbsp;&nbsp;<img src="instaicon.jpg"  style="width:150px;height:90px;"></div>
-        			
-        			
-        				<div class="select">&nbsp;&nbsp;
-        					<form>
-          						<input type="text" name="search" placeholder="Search.." >
-        						<img src="contacts.jpg"  style="width:50px;height:50px;"align="right">
-        						<img src="likeicon.jpg"  style="width:50px;height:50px;"align="right">
-        						<img src="sendicon.jpg"  style="width:50px;height:50px;"align="right">
-        			
-        					</form>
-        				</div>
-        			
-        		</div>
-        			<br /><br /><br /> <br><br>
-        			 
-        			
-        			<hr>
-        		<div>
-        			
-        			<table border="1" width="50%"align="center">
-        			<thead>
-        			<tr>
-        			<td colspan="4"><img src="teddy.jpg" style="width:50px;height:60px;">cute_teddy_bears&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6h</td>
-        			</tr>
-        			</thead>
-        			<tbody>
-        			<tr>
-        			<td><img src="cute.jpg"  style="width:800px;height:400px;"align="center" ></td>
-        			
-        			</tr>
-        			<tr>
-        			<td><br>7,061likes<br><b>_jo._.hanni</b> adorable<br><b>nana89leo</b>  Haha,cute <br><b>ashilpashri16</b>  so cute<br /><br /><br /><hr>
-        			<img src="likeicon.jpg"  style="width:50px;height:50px;"align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add a Comment...
-        			</td>
-        			
-        			
-        			
-        			
-        			</tr>
-        			
-        			
-        			
-        			</tbody>
-        			
-        			
-        		</div>
-        			
+      <div>
+        <div class="container">
+         <div class="row"  >
+           	<div class="col-sm-12">
+            <div>
+        			 <div class="header" ><img src="/client/img/Untitled.jpg" class="camlogo">&nbsp;&nbsp;</div>
+        			  <div class="vertical_line" ></div>
+        		      <div class="header">&nbsp;&nbsp;&nbsp;<img src="/client/img/instaicon.jpg" class="instalogo"></div>
+        			    	<div class="select">&nbsp;&nbsp;
+        					    <form>
+              				    	<input type="text" name="search" placeholder="Search.." class="searh" >
+            						<img src="/client/img/circlelogo.jpg"  class="contacticon">
+            						<img src="/client/img/LikeIcon.jpg"  class="likeicon" >
+            						<img src="/client/img/contactlogo.jpg"  class="sendicon" >
+          			           </form>
+                           </div>
+           	</div>
+        	</div>	 
         	</div>
+        	</div>
+        	<div class="bordr"></div> 
+        	
+        	<br><br><br>
+        	 <div>
+        	     <div >
+        	        <div class="container">
+        			   <div class="row" >  
+        	              <div class="col-sm-3"></div>
+        	                <div class="col-sm-6"  >
+        	                   <div class="bordrpic">
+        			          <p ><img src="/client/img/teddy.jpg" class="ciclepic">cute_teddy_bears 6h</p>
+        			          </div>
+        			        </div>
+        			        <div class="col-sm-3"></div>
+        			      </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="container">
+            <div class="row">
+        	  <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div class="bordrpic">
+                   <img src="/client/img/cute.jpg" class="mainpic">
+                   </div>
+        			  </div>
+        		    <div class="col-sm-3"></div>
+            </div>
+             <div class="row">
+                 <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                     <div class="bordrpic">
+                      <p>7,061likes</p><b>_jo._.hanni</b> adorable<p><b>nana89leo</b> </p> Haha,cute <p><b>ashilpashri16</b>  so cute</p><hr>
+        			    <div class="likepic"><img src="/client/img/LikeIcon.jpg" >Add a Comment...</div>
+        			 </div>
+        		</div>
+            <div class="col-sm-3"></div>
+        	</div>
+            </div>
+        
+      </div>
+           
         
         			
         		
 
-</body>
-</html>
-    
-    
-    
-    
-    
     
     
     
